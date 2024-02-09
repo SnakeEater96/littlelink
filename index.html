@@ -1,41 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="de">
 <head>
 
   <!-- Page Information
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>LittleLink</title>
-  <meta name="description" content="https://littlelink.io">
-  <meta name="author" content="Seth Cottle">
+  <title>TheGeekFreaks Linktree</title>
+  <meta name="description" content="Unsere Kanäle!">
+  <meta name="author" content="Moritz Mantel">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
-
-    <!-- Themes:
-            Auto:   css/skeleton-auto.css
-            Light:  css/skeleton-light.css
-            Dark:   css/skeleton-dark.css
-     -->
-    <link rel="stylesheet" href="css/skeleton-auto.css">
-
-    <!-- Brand Styles -->
-    <link rel="stylesheet" href="css/brands.css">
-
+  <link rel="stylesheet" href="css/skeleton-dark.css">
+  <link rel="stylesheet" href="css/brands.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/littlelink.png">
+  <link rel="icon" type="image/png" href="images/avatar.png">
 
 </head>
-
 <body>
 
   <!-- Primary Page Layout
@@ -44,66 +36,76 @@
     <div class="row">
       <div class="column" style="margin-top: 10%">
 
-        <!-- 
-
-          ## Getting Started with LittleLink
-
-          This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
-
-          You can add your own brand or others brands you may need in the `css/brands.css` file. 
-
-          You can add custom icons to `images/icons/...`. It is recommended to use a 24x24 .SVG.
-
-          Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
-
-          Edit the "Title" section to change the page heading. You can use something like your name, your social handle, or your brand name.
-
-          Edit the "Short Bio" section tell users about yourself or your brand.
-
-        -->
-
-        <!-- Your Image Here -->
-        <img src="images/littlelink.svg" class="avatar" srcset="images/littlelink.svg 2x" alt="">
 
         <!-- Title -->
-        <h1 role="heading">LittleLink</h1>
+        <h1>LightFulLife Linksammlung</h1>
 
-        <!-- Short Bio -->
-        <p>An open source DIY <a href="https://linktr.ee" target="_blank" rel="noopener" role="link">Linktree</a> alternative.</p>
 
-        <!--
-
-          ## Breaking down <a> attributes:
-          
-          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
-          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
-          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
-
-          2.) Replace the # in href="#" with the desired target URL for the button.
-
-          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
-
-          4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
-          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
-
-          5.) role="button" | The button role identifies an element as a button to assistive technology such as screen readers.
-
-          ## Breaking down the <img> attributes:
-          
-          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
-
-          2.) src="images/icons/[icon-name].svg" | This defines the icon you would like to display from the 'images/icons/' folder. For example, you can change this to src="images/icons/discord.svg" to use the Discord icon.
-          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
-
-          3.) alt="" | Since the text at the end of the snippet, "..>[Button Text]</a><br>", explains what the button is, we use "alt=""" to nullify the icon annoucement from the accessibility tree. 
-          This can improve the experience for assistive technology users by hiding what is essentially duplicated
-
-        -->
-
-        <!-- Lightfullife -->
-        <a class="button button-" href="https://www.lightfullifecoaching.com/" target="_blank" rel="noopener"><img class="icon" src="#" alt="Unraid Logo">Unraid #WERBUNG</a>
+	      <!-- Unraid Sponsor -->
+        <a class="button button-yt" href="https://tgf.click/unraid" target="_blank" rel="noopener"><img class="icon" src="https://craftassets.unraid.net/uploads/logos/unraid-stacked-dark.svg" alt="Unraid Logo">Unraid #WERBUNG</a>
         <br>
-        
+	      <!-- Caseking Sponsor -->
+        <a class="button button-yt" href="https://www.caseking.de/lp/thegeekfreaks-empfehlen-diese-gaming-pcs.html" target="_blank" rel="noopener"><img class="icon" src="https://prowly-uploads.s3.eu-west-1.amazonaws.com/uploads/press_rooms/company_logos/22634/2c1b71bf18c0529e323d643f35893773.png" alt="Caseking Logo">Caseking PCs #WERBUNG</a>
+        <br>
+            <!-- YouTube Main Channel -->
+        <a class="button button-yt" href="https://youtube.com/thegeekfreaks" target="_blank" rel="noopener"><img class="icon" src="images/icons/youtube.svg" alt="Hauptkanal Logo">Hauptkanal</a>
+          <br> 
+          <!-- YouTube Second Channel -->
+        <a class="button button-yt" href="https://www.youtube.com/channel/UCNvL8618IfVKRu8RpIoxCSQ" target="_blank" rel="noopener"><img class="icon" src="images/icons/youtube.svg" alt="Zweitkanal Logo">Zweitkanal</a>
+        <br> 
+        <!-- YouTube Livestream Channel -->
+        <a class="button button-yt" href="https://www.youtube.com/channel/UCcZlTmtlMrQkG7JEDEx656w" target="_blank" rel="noopener"><img class="icon" src="images/icons/youtube.svg" alt="LOT Kanal Logo">Livestream VODs/Podcast Aufnahmen</a>
+        <br> 
+        <!-- Website -->
+        <a class="button button-wordpress" href="https://the-geek-freaks.de" target="_blank" rel="noopener"><img class="icon" src="images/icons/wordpress.svg" alt="Wordpress Logo">TheGeekFreaks.de Website</a>
+          <br>
+          <!-- Discord -->
+        <a class="button button-discord" href="https://tgf.click/discord" target="_blank" rel="noopener"><img class="icon" src="images/icons/discord.svg" alt="Discord Logo">Discord</a>
+        <br>
+        <!-- Twitch -->
+        <a class="button button-twitch" href="https://tgf.click/twitch" target="_blank" rel="noopener"><img class="icon" src="images/icons/twitch.svg" alt="Twitch Logo">Twitch</a>
+          <br>
+        <!-- Twitch -->
+          <a class="button button-twit" href="https://twitter.com/GEAKFREAKME" target="_blank" rel="noopener"><img class="icon" src="images/icons/twitter.svg" alt="Twitter Logo">Twitter</a>
+          <br>
+        <!-- Instagram  -->
+          <a class="button button-instagram" href="https://www.instagram.com/thegeekfreakstv/" target="_blank" rel="noopener"><img class="icon" src="images/icons/instagram.svg" alt="Instagram Logo">Instagram</a>
+            <br>
+        <!-- Facebook -->
+        <a class="button button-faceb" href="https://www.facebook.com/TheGeekFreaks/" target="_blank" rel="noopener"><img class="icon" src="images/icons/facebook.svg" alt="Facebook Logo">Facebook</a>
+          <br>
+        <!-- Reddit -->
+        <a class="button button-reddit" href="https://www.reddit.com/r/TheGeekFreaks/" target="_blank" rel="noopener"><img class="icon" src="images/icons/reddit.svg" alt="Reddit Logo">Reddit</a>
+          <br> 
+        <!-- SoundCloud -->
+        <a class="button button-soundcloud" href="https://thegeekfreaks-podcast.de" target="_blank" rel="noopener"><img class="icon" src="images/icons/soundcloud.svg" alt="SoundCloud Logo">Podcast</a>
+          <br>     
+        <!-- Email -->
+        <a class="button button-default" href="mailto://marketing@thegeekfreaks.de" target="_blank" rel="noopener"><img class="icon" src="images/icons/email.svg" alt="Email Icon">Marketing@TheGeekFreaks.de</a>
+          <br>
+        <!-- Email Alternative -->
+        <a class="button button-default" href="mailto://support@thegeekfreaks.de" target="_blank" rel="noopener"><img class="icon" src="images/icons/email_alt.svg" alt="Email Icon">admin@thegeekfreaks.de</a>
+          <br>
+        <!-- TuningPack -->
+        <a class="button button-wordpress" href="https://www.tuning-pack.de" target="_blank" rel="noopener"><img class="icon" src="images/icons/wordpress.svg" alt="Wordpress Logo">Tuning-Pack.de Website</a>
+          <br>
+          <!-- Twitch -->
+          <a class="button button-tp" href="https://tuning-pack.de" target="_blank" rel="noopener"><img class="icon" src="images/icons/laptop.svg" alt="Tuning Pack Logo">Tuning Pack 4.x</a>
+          <br>
+        <!-- Forum -->
+        <a class="button button-forum" href="https://thegeekfreaks-community.de" target="_blank" rel="noopener"><img class="icon" src="images/icons/message.svg" alt="Tuning Pack Logo">TGF Community (Forum/Tickets)</a>
+        <br>
+        <!-- Twitch 24/7 1 -->
+        <a class="button button-twitch" href="https://twitch.tv/thegeekfreakslot" target="_blank" rel="noopener"><img class="icon" src="images/icons/twitch.svg" alt="Twitch Logo">24/7 Videos Twitch (WIP)</a>
+          <br>
+          <!-- Twitch 24/7 2 -->
+        <a class="button button-twitch" href="https://tgf.click/twitch" target="_blank" rel="noopener"><img class="icon" src="images/icons/twitch.svg" alt="Twitch Logo">24/7 Streams Twitch (WIP)</a>
+        <br>
+        <!-- YouTube 24/7 1 -->
+        <a class="button button-yt" href="https://www.youtube.com/channel/UCcZlTmtlMrQkG7JEDEx656w" target="_blank" rel="noopener"><img class="icon" src="images/icons/youtube.svg" alt="YouTube Logo">YouTube 24/7 Streams (WIP)</a>
+          <br> 
+
+
 <!-- Templates
         - Github -
         <a class="button button-github" href="#" target="_blank" rel="noopener"><img class="icon" src="images/icons/github.svg" alt="GitHub Logo">GitHub</a>
@@ -252,24 +254,16 @@
         - Venmo -
         <a class="button button-venmo" href="#" target="_blank" rel="noopener"><img class="icon" src="images/icons/venmo.svg" alt="Venmo Logo">Venmo</a>
 
-      
-    -->
-
         <br>
-        <!-- 
-            Footer:
-            This includes a link to privacy.html page which can be setup for your Privacy Policy.
-            This also includes a link to the LittleLink repository to make forking LittleLink easier.
-            You can edit or remove anything here to make your own footer.
-        -->
-        <p><a href="privacy.html">Privacy Policy</a> | Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a>.</p>
-
+    -->
+        <br>
+        <p>Built and Hosted by <a href="#" target="_blank" rel="noopener">name</a>.</p>
+          
       </div>
     </div>
   </div>
 
-  <!-- End Document
+<!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
-
 </html>
